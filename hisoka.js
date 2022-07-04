@@ -2798,7 +2798,8 @@ Selamat datang di menu bot WhatsApp 17Z yang dibuat Oleh
 Alumni ke 4.
 
 「INFORMASI TANGGAL/WAKTU」
-Jam : 
+Jam : ${getTime}
+Tanggal : ${tanggal}
 
 
 
