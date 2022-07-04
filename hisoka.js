@@ -2790,7 +2790,19 @@ let capt = `⭔ Title: ${judul}
             }
             break
             case 'list': case 'menu': case 'help': case '?': {
-                anu = `┌──⭓ *Group Menu*
+                anu = `
+17Z WABot
+
+Halo ${pushname}.
+Selamat datang di menu bot WhatsApp 17Z yang dibuat Oleh
+Alumni ke 4.
+
+「INFORMASI TANGGAL/WAKTU」
+Jam : 
+
+
+
+┌──⭓ *Group Menu*
 │
 │⭔ ${prefix}linkgroup
 │⭔ ${prefix}ephemeral [option]
