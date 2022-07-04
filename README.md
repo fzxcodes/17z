@@ -1,4 +1,10 @@
 # FZX x 17Z WhatsApp bot script
+
+Supported by :
+* Acaa [`Acaa tiktok`](https://tiktok.com/@miracle.f2)
+* Kekeyy[`sosmed nya saya lupa`]
+* Karly Zodiyak[`Nama sosmed nya ribet sangat`]
+
 * Original/Base by DikaArdnt [`DikaArdnt/Hisoka-Morou`](https://github.com/DikaArdnt/Hisoka-Morou)
 
 
@@ -21,7 +27,6 @@
 ```Thanks to all who have participated in the development of this script```
 
 
-License: [MIT](https://en.wikipedia.org/wiki/MIT_License)
 
 Support Me
 * [`Paypal`](https://www.paypal.me/Cakhaho)
