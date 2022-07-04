@@ -2673,6 +2673,10 @@ let capt = `⭔ Title: ${judul}
             hisoka.sendImage(m.chat, res.result[0].img, capt, m)
             }
             break
+            case 'thanks17z': {
+            	m.reply('Terimakasih!')
+            }
+            break
             case 'aminio': {
             if (!text) throw `Example: ${prefix + command} free fire`
             let res = await fetchJson(api('zenz', '/webzone/amino', { query: text }, 'apikey'))
@@ -3128,7 +3132,7 @@ let capt = `⭔ Title: ${judul}
                             }, {
                                 quickReplyButton: {
                                     displayText: 'Bagus.',
-                                    id: '-'
+                                    id: 'thanks17z'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
