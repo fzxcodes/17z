@@ -10,6 +10,7 @@
 * [`Mhankbarbar`](https://github.com/MhankBarBar)
 * [`Faiz`](https://github.com/FaizBastomi)
 * [`Faiz FZX`](https://github.com/fzxcodes)
+* [`Dika Ardnt`](https://github.com/DikaArdnt)
 * [`Gimenz`](https://github.com/Gimenz)
 * [`rayy`](https://github.com/rayyreall)
 * [`Fatih Arridho`](https://github.com/FatihArridho)
