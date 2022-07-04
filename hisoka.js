@@ -2798,7 +2798,6 @@ Selamat datang di menu bot WhatsApp 17Z yang dibuat Oleh
 Alumni ke 4.
 
 「INFORMASI SERVER 」
-Speed :  ${latensi.toFixed(4)} _Second_ 
 Runtime : ${runtime(process.uptime())}
 RAM : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 
