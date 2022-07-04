@@ -7,6 +7,9 @@ Supported by :
 
 * Original/Base by DikaArdnt [`DikaArdnt/Hisoka-Morou`](https://github.com/DikaArdnt/Hisoka-Morou)
 
+## INFORMASI
+* Jangan lupa donasi cuy
+* awikawok
 
 
 
