@@ -9,6 +9,7 @@
 * [`Nurutomo`](https://github.com/Nurutomo)
 * [`Mhankbarbar`](https://github.com/MhankBarBar)
 * [`Faiz`](https://github.com/FaizBastomi)
+* [`Faiz FZX`](https://github.com/fzxcodes)
 * [`Gimenz`](https://github.com/Gimenz)
 * [`rayy`](https://github.com/rayyreall)
 * [`Fatih Arridho`](https://github.com/FatihArridho)
@@ -24,4 +25,4 @@ License: [MIT](https://en.wikipedia.org/wiki/MIT_License)
 Support Me
 * [`Paypal`](https://www.paypal.me/Cakhaho)
 * [`Saweria`](https://saweria.co/DikaArdnt)
-* [`Saweria`] (https://saweria.co/faizfzx)
+* [`Saweria`](https://saweria.co/faizfzx)
