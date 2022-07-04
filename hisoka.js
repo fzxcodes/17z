@@ -2797,10 +2797,10 @@ Halo ${pushname}.
 Selamat datang di menu bot WhatsApp 17Z yang dibuat Oleh
 Alumni ke 4.
 
-「INFORMASI TANGGAL/WAKTU」
-Jam : ${getTime}
-Tanggal : ${tanggal}
-
+「INFORMASI SERVER 」
+Speed :  ${latensi.toFixed(4)} _Second_ 
+Runtime : ${runtime(process.uptime())}
+RAM : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 
 
 ┌──⭓ *Group Menu*
