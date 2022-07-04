@@ -40,8 +40,8 @@ global.limitawal = {
     premium: "Infinity",
     free: 100
 }
-global.thumb = fs.readFileSync('./lib/hisoka.jpg')
-global.visoka = { url: 'https://telegra.ph/file/15209657f9d4f59c7ca1e.mp4' }
+global.thumb = { url: 'https://telegra.ph/file/b2f7d18c8d52c869c6476.jpg' }
+global.visoka =  { url: 'https://streamable.com/9tofo0' }
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
