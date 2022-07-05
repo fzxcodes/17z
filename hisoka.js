@@ -98,7 +98,7 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
 		if (!('templateLocation' in setting)) setting.templateLocation = false
 	    } else global.db.data.settings[botNumber] = {
 		status: 0,
-		autobio: false,
+		autobio: true,
 		templateImage: true,
 		templateVideo: false,
 		templateGif: false,
