@@ -2069,8 +2069,7 @@ break
                 hisoka.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
-            case 'tiktokwm': case 'tiktokwatermark': /* {
-            	
+            case 'tiktokwm': case 'tiktokwatermark': {
                 if (!text) throw 'Masukkan Query Link!'
                 m.reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
@@ -2087,8 +2086,6 @@ break
                 }
                 hisoka.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
-            
-            */
             break
             case 'tiktokmp3': case 'tiktokaudio': {
                 if (!text) throw 'Masukkan Query Link!'
