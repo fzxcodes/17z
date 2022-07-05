@@ -297,7 +297,7 @@ if(time2 < "11:00:00"){
 var ucapanWaktu = 'Selamat Pagi'
                                          }
 if(time2 < "05:00:00"){
-var ucapanWaktu = 'Dini hari tiba, Bersiap siaplah menjalani hari'
+var ucapanWaktu = 'Dini hari.'
                                          }
 
 // TANGGAL 
