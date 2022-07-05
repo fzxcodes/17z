@@ -2825,8 +2825,9 @@ let capt = `⭔ Title: ${judul}
             }
             break
             case 'list': case 'menu': case 'help': case '?': {
-            	let sipit = speed() - ff
-                 let ff = speed()
+            let ff = speed()
+	let sipit = speed() - ff
+                 
                 anu = `
 17Z WABot
 
