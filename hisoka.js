@@ -279,6 +279,41 @@ ${Array.from(room.jawaban, (jawaban, index) => {
             } else m.reply('*Jawaban Salah!*')
         }
         
+        // Jam
+        const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
+if(time2 < "23:59:00"){
+var ucapanWaktu = 'Selamat Malam'
+                                        }
+if(time2 < "19:00:00"){
+var ucapanWaktu = 'Selamat Petang'
+                                         }
+if(time2 < "18:00:00"){
+var ucapanWaktu = 'Selamat Sore'
+                                         }
+if(time2 < "15:00:00"){
+var ucapanWaktu = 'Selamat Siang'
+                                         }
+if(time2 < "11:00:00"){
+var ucapanWaktu = 'Selamat Pagi'
+                                         }
+if(time2 < "05:00:00"){
+var ucapanWaktu = 'Selamat Malam'
+                                         }
+
+// TANGGAL 
+var buln = ['/01/', '/02/', '/03/', '/04/', '/05/', '/06/', '/07/', '/08/', '/09/', '/10/', '/11/', '/12/'];
+var myHari = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
+var tgel = new Date();
+var hri = tgel.getDate();
+var bulnh = tgel.getMonth();
+var thisHari = tgel.getDay(),
+    thisDaye = myHari[thisHari];
+var yye = tgel.getYear();
+var syear = (yye < 1000) ? yye + 1900 : yye;
+const jangwak = (hri + '' + buln[bulnh] + '' + syear)
+const janghar = (thisDaye)
+
+        
         //TicTacToe
 	    this.game = this.game ? this.game : {}
 	    let room = Object.values(this.game).find(room => room.id && room.game && room.state && room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender) && room.state == 'PLAYING')
