@@ -2825,6 +2825,7 @@ let capt = `⭔ Title: ${judul}
             }
             break
             case 'list': case 'menu': case 'help': case '?': {
+            	let sipit = speed() - timestamp
                 anu = `
 17Z WABot
 
@@ -2835,7 +2836,7 @@ Alumni ke 4.
 「INFORMASI BOT 」
 Creator : Faizz
 Runtime : ${runtime(process.uptime())}
-Speed : ${latensi.toFixed(4)} _Detik_
+Speed : ${sipit.toFixed(4)} _Detik_
 
 「INFORMASI SERVER 」
 CPU : ${cpus[0].model.trim()} 
