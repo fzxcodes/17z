@@ -40,7 +40,7 @@ global.limitawal = {
     premium: "Infinity",
     free: 100
 }
-global.thumb = { url: 'https://telegra.ph/file/b2f7d18c8d52c869c6476.jpg' }
+global.thumb = { url: 'https://telegra.ph/file/13b7e108484c938d18ea5.jpg' }
 global.visoka =  { url: 'https://streamable.com/9tofo0' }
 
 let file = require.resolve(__filename)
