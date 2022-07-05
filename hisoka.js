@@ -282,10 +282,10 @@ ${Array.from(room.jawaban, (jawaban, index) => {
         // Jam
         const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
 if(time2 < "23:59:00"){
-var ucapanWaktu = 'Sudah tengah malam, Tidurlah'
+var ucapanWaktu = 'Selamat Malam'
                                         }
 if(time2 < "19:00:00"){
-var ucapanWaktu = 'Selamat Malam'
+var ucapanWaktu = 'Selamat Petang'
                                          }
 if(time2 < "18:00:00"){
 var ucapanWaktu = 'Selamat Sore'
@@ -296,7 +296,7 @@ var ucapanWaktu = 'Selamat Siang'
 if(time2 < "11:00:00"){
 var ucapanWaktu = 'Selamat Pagi'
                                          }
-if(time2 < "05:00:00"){
+if(time2 < "04:00:00"){
 var ucapanWaktu = 'Dini hari.'
                                          }
 
