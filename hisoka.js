@@ -121,9 +121,9 @@ module.exports = hisoka = async (hisoka, m, chatUpdate, store) => {
             console.log(chalk.black(chalk.bgWhite('[ PESAN ]')), chalk.black(chalk.bgGreen(new Date)), chalk.black(chalk.bgBlue(budy || m.mtype)) + '\n' + chalk.magenta('=> Dari'), chalk.green(pushname), chalk.yellow(m.sender) + '\n' + chalk.blueBright('=> Di'), chalk.green(m.isGroup ? pushname : 'Private Chat', m.chat))
         }
 	
-	// reset limit every 12 hours
+	// reset limit every 1 hours
         let cron = require('node-cron')
-        cron.schedule('00 12 * * *', () => {
+        cron.schedule('00 1 * * *', () => {
             let user = Object.keys(global.db.data.users)
             let limitUser = isPremium ? global.limitawal.premium : global.limitawal.free
             for (let jid of user) global.db.data.users[jid].limit = limitUser
