@@ -2061,8 +2061,8 @@ break
                 ]
                 let buttonMessage = {
                     video: { url: anu.result.nowatermark },
-                    caption: `Download From ${text}`,
-                    footer: 'Press The Button Below',
+                    caption: `Nih VT Nya ${pushname}`,
+                    footer: 'Pilihan Lain',
                     buttons: buttons,
                     headerType: 5
                 }
@@ -2079,8 +2079,8 @@ break
                 ]
                 let buttonMessage = {
                     video: { url: anu.result.watermark },
-                    caption: `Download From ${text}`,
-                    footer: 'Press The Button Below',
+                    caption: `Nih VT Nya ${pushname}`,
+                    footer: 'Pilihan Lain',
                     buttons: buttons,
                     headerType: 5
                 }
@@ -2096,8 +2096,8 @@ break
                     {buttonId: `tiktokwm ${text}`, buttonText: {displayText: '► With Watermark'}, type: 1}
                 ]
                 let buttonMessage = {
-                    text: `Download From ${text}`,
-                    footer: 'Press The Button Below',
+                    text: `Hasil dari ${text}`,
+                    footer: 'Pilihan Lain',
                     buttons: buttons,
                     headerType: 2
                 }
