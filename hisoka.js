@@ -2841,7 +2841,7 @@ Runtime : ${runtime(process.uptime())}
 Speed : ${sipit.toFixed(4)} _Detik_
 
 「INFORMASI SERVER 」
-CPU : ${cpus[0].model.trim()} 
+CPU : Intel Xeon
 RAM : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 
 「 INFORMASI TANGGAL/WAKTU」
