@@ -154,7 +154,7 @@ async function startHisoka() {
                 }
 
                 if (anu.action == 'add') {
-                    hisoka.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Welcome To ${metadata.subject} @${num.split("@")[0]}` })
+                    hisoka.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Selamat datang di grup ${metadata.subject} @${num.split("@")[0]}` })
                 } else if (anu.action == 'remove') {
                     hisoka.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `@${num.split("@")[0]} Leaving To ${metadata.subject}` })
                 } else if (anu.action == 'promote') {
