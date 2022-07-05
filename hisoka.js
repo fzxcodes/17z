@@ -1553,7 +1553,7 @@ break
                 ]
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
-                    caption: ` *Mohon Tunggu...*
+                    caption: `
 ⭔ Title : ${anu.title}
 ⭔ Ext : Search
 ⭔ ID : ${anu.videoId}
