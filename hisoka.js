@@ -2828,7 +2828,7 @@ let capt = `⭔ Title: ${judul}
                 anu = `
 17Z WABot
 
-Halo ${pushname}.
+Halo ${pushname}, ${ucapanWaktu}.
 Selamat datang di menu bot WhatsApp 17Z yang dibuat Oleh
 Alumni ke 4.
 
@@ -2836,6 +2836,9 @@ Alumni ke 4.
 Runtime : ${runtime(process.uptime())}
 RAM : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 
+「 INFORMASI TANGGAL/WAKTU」
+Jam : ${time2}
+Tanggal : ${janghar}, ${jangwak}
 
 ┌──⭓ *Group Menu*
 │
