@@ -1210,29 +1210,29 @@ break
 		for (let yoi of anu) {
 		    await sleep(1500)
 		    let btn = [{
-                                urlButton: {
-                                    displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
+                                           urlButton: {
+                                    displayText: 'Donasi',
+                                    url: 'https://saweria.co/faizfzx'
                                 }
                             }, {
                                 callButton: {
-                                    displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 882-9202-4190'
+                                    displayText: 'No. Faiz',
+                                    phoneNumber: '6285793887010'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Status Bot',
+                                    displayText: 'Cek Bot',
                                     id: 'ping'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Contact Owner',
+                                    displayText: 'Nu ngajieun ieu bot?',
                                     id: 'owner'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Script',
-                                    id: 'sc'
+                                    displayText: 'OK',
+                                    id: '-'
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
