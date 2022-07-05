@@ -2832,12 +2832,17 @@ Halo ${pushname}, ${ucapanWaktu}.
 Selamat datang di menu bot WhatsApp 17Z yang dibuat Oleh
 Alumni ke 4.
 
-「INFORMASI SERVER 」
+「INFORMASI BOT 」
+Creator : Faizz
 Runtime : ${runtime(process.uptime())}
+Speed : ${latensi.toFixed(4)} _Detik_
+
+「INFORMASI SERVER 」
+CPU : ${cpus[0].model.trim()} 
 RAM : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 
 「 INFORMASI TANGGAL/WAKTU」
-Jam : ${time2}
+Jam : ${time2} WIB
 Tanggal : ${janghar}, ${jangwak}
 
 ┌──⭓ *Group Menu*
