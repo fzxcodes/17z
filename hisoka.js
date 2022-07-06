@@ -2859,6 +2859,11 @@ RAM : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 Jam : ${time2} WIB
 Tanggal : ${janghar}, ${jangwak}
 
+┌──⭓ *17Z Menu*
+│
+│⭔ ${prefix}linkgcalumni
+│⭔ ${prefix}
+
 ┌──⭓ *Group Menu*
 │
 │⭔ ${prefix}linkgroup
