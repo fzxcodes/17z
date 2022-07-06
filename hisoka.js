@@ -2835,6 +2835,29 @@ let capt = `⭔ Title: ${judul}
                 }
             }
             break
+            
+            case 'panduanbot':{
+            	pandu = `Halo kak ${pushmame}!\n
+            Kebingungan cara pakai Bot ini? begini caranya!\n
+            
+            Untuk membuat stiker, Kirim terlebih dahulu Foto yang ingin
+            dijadikan Stiker, lalu balas foto itu dengan pesan Stiker\n
+            
+            Fitur lain :
+            Untuk panduan fitur lain, bisa ditanyakan ke Owner Faiz ya kak, Caranya
+            ketik Owner
+            
+            Bot tidak menjawab :
+            jika bot tidak merespon/menjawab Perintah, harap kasihtau ke Faiz ya kak,
+            dan jika sudah di cek, bot akan mengirim pesan dengan alasanya.
+            
+            
+           Regards,
+         Faiz BeraniBeda.`
+         m.reply(pandu)
+         }
+         break
+            
             case 'list': case 'menu': case 'help': case '?': {
             let ff = speed()
 	let sipit = speed() - ff
