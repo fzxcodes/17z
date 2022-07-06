@@ -2837,7 +2837,7 @@ let capt = `⭔ Title: ${judul}
             break
             
             case 'panduanbot':{
-            	pandu = `Halo kak ${pushmame}!\n
+            	pandu = `Halo kak ${pushname}!\n
             Kebingungan cara pakai Bot ini? begini caranya!\n
             
             Untuk membuat stiker, Kirim terlebih dahulu Foto yang ingin
