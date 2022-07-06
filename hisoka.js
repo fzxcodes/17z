@@ -2859,6 +2859,9 @@ RAM : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 Jam : ${time2} WIB
 Tanggal : ${janghar}, ${jangwak}
 
+「PANDUAN PENGGUNAAN」
+Ketik panduanbot
+
 ┌──⭓ *17Z Menu*
 │
 │⭔ ${prefix}linkgcalumni
