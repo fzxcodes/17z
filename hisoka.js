@@ -2864,7 +2864,7 @@ let capt = `⭔ Title: ${judul}
 	aca = new Date();
                  thn = aca.getYear();
           
-                captfzx = `Donasilah untuk orang baik: https://saweria.co/faizfzx\nRegards, Faiz\n©${thn} Faiz Putra, All Rights Reserved.`
+                captfzx = `Donasilah untuk orang baik: https://saweria.co/faizfzx\nRegards, Faiz\n©Faiz Putra, All Rights Reserved.`
                  
                 anu = `
 17Z WABot
