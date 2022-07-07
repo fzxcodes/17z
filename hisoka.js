@@ -2861,7 +2861,8 @@ let capt = `⭔ Title: ${judul}
             case 'list': case 'menu': case 'help': case '?': {
             let ff = speed()
 	let sipit = speed() - ff
-                 thn = tgel.getYear();
+                 thn = aca.getYear();
+                 aca = new Date();
                 captfzx = `Donasilah untuk orang baik: https://saweria.co/faizfzx\nRegards, Faiz\n©${thn} Faiz Putra, All Rights Reserved.`
                  
                 anu = `
