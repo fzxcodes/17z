@@ -3215,8 +3215,8 @@ Ketik panduanbot
 └───────⭓`
                 let btn = [{
                                 urlButton: {
-                                    displayText: '17Z Website',
-                                    url: 'Coming soon yagesya!'
+                                    displayText: 'Donasi Pemeliharaan Bot',
+                                    url: 'https://saweria.co/faizfzx/'
                                 }
                             }, {
                                 callButton: {
