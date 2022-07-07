@@ -2862,6 +2862,8 @@ let capt = `⭔ Title: ${judul}
             let ff = speed()
 	let sipit = speed() - ff
                  
+                captfzx = `Donasilah untuk orang baik: https://saweria.co/faizfzx\nRegards, Faiz\n 
+                 
                 anu = `
 17Z WABot
 
