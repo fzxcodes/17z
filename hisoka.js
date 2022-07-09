@@ -2869,6 +2869,8 @@ let capt = `⭔ Title: ${judul}
                 anu = `
 17Z WABot
 
+[ Selamat Hari Raya Idul Adha 1443H! ]
+
 Halo ${pushname}, ${ucapanWaktu}.
 Selamat datang di menu bot WhatsApp 17Z yang dibuat Oleh
 Alumni ke 4.
